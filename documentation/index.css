@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+
+}
+
+p {
+  font-family: "Georgia", Times, serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  width: 250px;
+  height: 100%;
+  background-color: rgb(39, 80, 114);
+ 
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid rgb(17, 13, 13);
+  padding: 10px;
+}
+
+.nav-link:hover {
+  background-color: rgb(4, 50, 65);
+  font-weight: 40px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+}
+
+.main-section {
+  margin-left: 400px;
+  margin-right: 5px;
+}
+
+@media (max-width: 1200px) {
+  #navbar {
+    width: 150px;
+  }
+
+  h1.title {
+    font-size: 22px;
+  }
+
+  .main-section {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .nav-link {
+    border-bottom: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+
+  .main-section {
+    margin-left: 0;
+    margin-top: 120px;
+  }
+
+  .sub-title {
+    font-size: 28px;
+  }
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 3;
+  background-color: #fff;
+}

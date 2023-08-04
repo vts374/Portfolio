@@ -1,0 +1,234 @@
+body {
+  background-color: rgb(0, 99, 124);
+}
+
+th {
+  text-align: center;
+  text-decoration: none;
+  gap: 30%;
+
+  font-family: josefin slab;
+  font-size: large;
+  font-weight: 1000%;
+}
+
+th>a {
+  text-decoration: none;
+}
+
+th>a:hover {
+  color: rgb(201, 44, 161);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  background-color: white;
+  padding-top: 20px;
+  z-index: inherit;
+  position: static;
+}
+
+#header-img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#play-botton {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: inline;
+}
+
+#play-botton:hover {
+  opacity: 70%;
+}
+
+#video {
+  background-color: rgb(248, 248, 248);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.intro-head {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 10px;
+}
+
+.intro {
+  text-align: center;
+  font-size: larger;
+}
+
+.nav-link {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-link:hover {
+  color: rgb(201, 44, 161);
+}
+
+#intro-text {
+  font-family: Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: smaller;
+}
+
+.coffee {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coffee>img {
+  border-radius: 100%;
+  width: 50%;
+  height: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+
+.items {
+  text-align: center;
+  font-size: larger;
+}
+
+#products {
+  /* text-align: center; */
+  font-size: larger;
+}
+
+/* .m {
+  align-content: center;
+} */
+.order {
+  column-gap: 30px;
+  padding-top: 10px;
+}
+
+.button {
+  color: rgb(10, 40, 94);
+  background-color: rgb(162, 210, 250);
+  border-radius: 10px;
+  box-shadow: rgb(146, 57, 6);
+  font-family: IM Fell English SC;
+}
+
+.button:hover {
+  opacity: 50%;
+}
+
+#cappuccino {
+  height: 30%;
+  width: 30%;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+#latte {
+  height: 30%;
+  width: 30%;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+#espresso {
+  height: 30%;
+  width: 30%;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+#mocha {
+  height: 30%;
+  width: 30%;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+#filter-coffee {
+  height: 30%;
+  width: 30%;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+#Macchiato {
+  height: 30%;
+  width: 30%;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+#form>table {
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(162, 165, 168);
+  background-color: var(--bg-light);
+  padding: 20px;
+  border-radius: 10px;
+ 
+}
+
+#submit {
+  color: rgb(9, 70, 70);
+  background-color: rgb(170, 182, 184);
+  font-family: "Times New Roman", Times, serif;
+  padding: 3px;
+  border-radius: 5px;
+  
+}
+
+#submit:hover {
+  background-color: rgb(69, 193, 209);
+}
+
+.order {
+  text-decoration: none;
+}
+
+#aboutus {
+  font-family: Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: smaller;
+  padding-left: 20px;
+}
+
+.x {
+  font-style: inherit;
+}
+
+#findus {
+  font-family: Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: smaller;
+}
+
+@media (max-width: 430px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+
+  #nav-bar {
+    width: 90%;
+    height: 40px;
+    justify-content: space-around;
+  }
+}

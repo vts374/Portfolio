@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css">
+  <title>Documentation</title>
+</head>
+
+<body>
+  
+
+  <nav id="navbar">
+    <header>
+      <h1 class="title"><img src="https://cdn-icons-png.flaticon.com/512/919/919827.png"> Html Documentation</h1>
+      <div class="nav-links">
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Tags" class="nav-link">Tags</a>
+        <a href="#Forms" class="nav-link">Forms</a>
+        <a href="#Button" class="nav-link">Button</a>
+        <a href="#Dom" class="nav-link">Dom</a>
+      </div>
+    </header>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header class="sub-title"><h2>Introduction</h2></header>
+      <p>
+     HTML, or HyperText Markup Language, is the standard markup language used for creating and structuring web pages on the internet. It provides a set of tags and attributes that define the structure and content of a web page, allowing web browsers to display the information to users.
+
+Key points about HTML:
+
+Markup Language: HTML is not a programming language but a markup language. It uses tags to mark elements on a web page, indicating how the content should be structured and displayed.
+
+Structure of HTML Documents: An HTML document consists of an opening &lt;!DOCTYPE html&gt; declaration, followed by an &lt;html&gt; element containing two main sections: &lt;head&gt; and&lt;body&gt;. The &lt;head&gt; section contains metadata, while the &lt;body&gt; section contains visible content.
+
+HTML Tags and Elements: HTML tags are used to define elements, such as headings, paragraphs, images, links, lists, tables, forms, and more. Tags are enclosed in angle brackets ( &lt ;&lg) and can have attributes that provide additional information or settings.
+
+Semantic Elements: HTML5 introduced semantic elements like &lt;header&gt;,&lt;nav&gt;, &lt;main&gt;,&lt;article&gt;, section&gt;, &lt;footer&gt;, etc. These elements add meaning and structure to the content, making it more accessible and understandable to search engines and assistive technologies.
+
+Hyperlinks: Hyperlinks, created using the &lt;a&gt; tag, enable users to navigate between web pages, both within the same website and to external websites.
+
+Multimedia: HTML supports embedding images, audio, and video using the &lt;img&gt;,&lt;audio&gt;, and&lt;video&gt;tags, respectively.
+
+Forms: HTML forms allow users to interact with a web page by providing input through elements like text fields, checkboxes, radio buttons, dropdown lists, and buttons.
+
+Validation: HTML documents should be well-formed and valid to ensure proper rendering and compatibility across different web browsers. Validation can be done using online validators or built-in browser tools.
+
+HTML works in conjunction with CSS (Cascading Style Sheets) and JavaScript to create visually appealing and interactive web pages. CSS is used for styling the layout and appearance, while JavaScript enables dynamic behavior and interactivity on the web page.
+        
+      </p>
+      <p class="example">Html5 code begins with</p>
+      <pre><code> &lt;!DOCTYPE html>
+        &lt;html lang="en">
+        &lt;head>
+          &lt;meta charset="UTF-8">
+          &lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+          &lt;title>Document</title>
+        &lt;/head>
+        &lt;body>
+          
+        &lt;/body>
+        &lt;/html> </code></pre>
+    </section>
+    <section class="main-section" id="Tags">
+      <header class="sub-title"><h2>Tags</h2></header>
+      <p>HTML tags are special codes used to define the structure and content of a web page. They tell web browsers how to display the information to users. HTML tags are enclosed in angle brackets (&lt; and &gt;) and can be categorized into opening tags, closing tags, and self-closing tags.
+
+Opening Tags: Opening tags are used to start an HTML element and define its properties. They are written as &lt;tagname&gt; where "tagname" represents the specific element, like &lt;p&gt; for a paragraph or &lt;h1&gt; for a heading.
+
+Closing Tags: Most HTML elements come in pairs, with an opening tag and a closing tag. The closing tag is used to indicate the end of the element's content. It is written as &lt;/tagname&gt;, where "tagname" matches the opening tag, such as &lt;/p&gt; or &lt;/h1&gt;.
+
+Self-Closing Tags: Some elements don't have content and are self-contained, like line breaks or images. These tags are self-closing, written as &lt;tagname /&gt;, such as &lt;br /&gt; for a line break or &lt;img /&gt; for an image.
+
+Nested Tags: HTML tags can be nested inside each other to create complex structures. For example, you can have a paragraph (&lt;p&gt;) containing a heading (&lt;h1&gt;) and a list (&lt;ul&gt;).
+
+Attributes: Tags can have attributes to provide additional information or settings for the elements. Attributes are added to the opening tag and consist of a name and a value, like &lt;tagname attribute="value"&gt;. For instance, &lt;a href="https://example.com"&gt; creates a hyperlink with the destination specified by the href attribute.
+
+Semantic Tags: HTML5 introduced semantic tags that add meaning to the content. These include &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;, &lt;section&gt;, and &lt;footer&gt;. Using semantic tags improves accessibility and makes it easier for search engines to understand the page's structure.&lt;/p&gt;
+     <p> class="example"&gt;Some Html tags are:</p>;
+      <pre>
+        <code>
+          &lt;button&gt;&lt;/button&gt; &lt;table&gt;&lt;/table&gt;&lt;form action=""&gt;&lt;/form&gt;;&lt;input type="text"&gt;&lt;hr&gt;&lt;br&gt;;
+        </code>
+      </pre>;
+    </section>
+    <section class="main-section" id="Forms">
+      <header class="sub-title"><h2>Forms</h2></header>
+      <p>In HTML, a form is a container that allows users to input data and submit it to a server for processing. Forms are essential for various web applications, such as user registrations, login pages, search functionalities, and more. They enable user interaction and data exchange between the user and the web server.
+
+Here's a small description of HTML forms:
+
+Basic Structure: A form is defined using the &lt;form&gt;element, which encloses a set of form controls or input fields. The form controls allow users to enter data, make selections, or perform actions.
+
+Input Fields: Input fields are the most common form controls and can include text fields, checkboxes, radio buttons, dropdown lists, and more. Users provide information by filling in these fields.
+
+Form Submission: When users have entered their data, they can submit the form using a submit button (&lt;input type="submit"&gt;or &lt;button type="submit">). Submitting the form sends the entered data to the server for processing.
+
+Action Attribute: The &lt;form&gt;element has an "action" attribute that specifies the URL where the form data should be sent upon submission. This URL typically points to a server-side script that handles the data processing.
+
+Method Attribute: The "method" attribute in the &lt;form&gt;element determines how the form data should be sent to the server. The two most common methods are "GET" (appends data to the URL) and "POST" (sends data in the request body).
+
+Validation: HTML5 introduced form validation attributes (required, pattern, etc.) to enforce data integrity and validate user input before form submission.
+        </p>
+      <p class="example">Format of Html table is here</p>
+      <pre><code>
+            &lt;form>
+              &lt;label for="fname">First name:</label><br>
+              &lt;input type="text" id="fname" name="fname"><br>
+              &lt;label for="lname">Last name:</label><br>
+              &lt;input type="text" id="lname" name="lname">
+            &lt;/form>
+         </code></pre>
+    </section>
+    <section class="main-section" id="Button">
+      <header class="sub-title" ><h2>Button</h2></header>
+      <p>In HTML, the &lt;button&gt; element represents a clickable button that can be used to trigger an action or perform a function when clicked by the user. It is a versatile element commonly used in web forms, interactive features, and user interfaces.
+
+Here's a small description of the &lt;button&gt; element:
+
+Basic Syntax: The &lt;button&gt; element is written as &lt;button&gt;...&lt;/button&gt;, with the content between the opening and closing tags representing the label or text that appears on the button.
+       &lt;/p&gt;
+      <p> class="example"&gt;Button tag is used as</p>;
+     <pre>
+      <code> 
+          &lt;button type="button" onclick="alert('Hello World!')"&gt;Click Me!&lt;/button&gt; &lt;
+      </code>
+    </pre>;
+    </section>
+    <section class="main-section" id="Dom">
+      <header class="sub-title"><h2>DOM</h2></header>
+      <p> The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the structure of a web page as a tree-like structure, where each element of the page, such as HTML tags, text, attributes, and even CSS styles, is represented  as a node in the tree.
+
+Small description of DOM:
+
+Tree-like Structure: The DOM represents the web page as a tree-like structure, with the HTML document being the root node, and each HTML element forming branches and leaves of the tree. This hierarchical representation allows developers to access and manipulate individual elements and their properties.
+
+Dynamic Interaction: The DOM provides a way for JavaScript to interact with and modify the content and structure of a web page in real-time. This enables dynamic behaviors, such as updating content, handling user interactions, and responding to events like clicks and keystrokes.
+
+Document Object: The DOM treats an HTML or XML document as an object. Developers can use various properties, methods, and events exposed by the DOM to access and manipulate the content of the document. The DOM acts as a bridge between the document's structure and JavaScript, allowing developers to change what the user sees and interacts with.
+
+Platform Independence: The DOM is standardized by the W3C (World Wide Web Consortium), making it independent of any specific programming language or platform. As a result, developers can use the DOM with languages like JavaScript, Python, Java, and more to work with web documents.
+
+Cross-Browser Compatibility: The DOM ensures cross-browser compatibility, allowing developers to write code that works consistently across different web browsers. It abstracts the underlying browser differences, making it easier to develop web applications that function uniformly on various platforms.
+
+Event Handling: The DOM provides the ability to handle events, such as clicks, mouse movements, keyboard inputs, etc. Developers can attach event listeners to DOM elements to execute specific actions when events occur.
+
+Dynamic Rendering: By manipulating the DOM, developers can dynamically update the content and appearance of a web page, enabling features like animations, live data updates, and interactive user interfaces.
+
+Overall, the DOM is a powerful tool that enables web developers to create dynamic and interactive web pages by accessing and modifying the content and structure of a document in real-time using client-side scripting languages like JavaScript.
+
+      </p>
+
+      <p class="example">The following example changes the content (the innerHTML) of the element with id="demo":</p>
+      <pre><code>
+            &lt;html>
+            &lt;body>
+
+            &lt;p id="demo">
+
+            &lt;script>
+            document.getElementById("demo").innerHTML = "Hello World!";
+            &lt;/script>
+
+            &lt;/body>
+            &lt;/html>
+         </code></pre>
+         
+    </section>
+  </main>
+</body>
+
+</html>
